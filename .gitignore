@@ -1,0 +1,49 @@
+# OpenClaw config (contains secrets/tokens)
+openclaw.json
+openclaw.json.bak*
+openclaw.json.save
+
+# Credentials and auth
+credentials/
+identity/
+telegram/
+memory/
+
+# Logs and temp
+logs/
+/tmp/
+
+# Delivery queue and internal state
+delivery-queue/
+cron/
+keep-gateway-alive.sh
+update-check.json
+
+# Agents session data (runtime state, not source)
+agents/
+
+# Subagents runtime
+subagents/
+
+# Canvas
+canvas/
+
+# Media (potentially large/private)
+media/
+
+# Python venvs
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Node modules
+**/node_modules/
+
+# OS
+.DS_Store
+
+# Workspace secrets and state
+**/.secrets/
+**/.openclaw/
+**/.env
+workspace-dev/
